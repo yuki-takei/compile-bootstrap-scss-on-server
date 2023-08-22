@@ -1,3 +1,16 @@
 @import '../../../../node_modules/bootstrap/scss/functions.scss';
+
+// reduce breakpoints
+$grid-breakpoints: (
+  xs: 0,
+) !default;
+
 @import '../../../../node_modules/bootstrap/scss/variables.scss';
+
+// reduce theme colors
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+);
+
 @import '../../../../node_modules/bootstrap/scss/mixins.scss';
