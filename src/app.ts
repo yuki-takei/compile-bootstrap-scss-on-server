@@ -8,7 +8,7 @@ app.get('/', (_req, res) => {
 
   console.log({ emailCss });
 
-  res.send("show the server console logs.");
+  res.send(emailCss);
 });
 
 app.listen(3000);
